@@ -4,6 +4,8 @@
 
 ### How to submit your code for review:
 
+[Live Preview](https://immonroe.github.io/todo-list-2019-week05/)
+
 - Fork and clone this repo
 - Create a new branch called answer
 - Checkout answer branch
