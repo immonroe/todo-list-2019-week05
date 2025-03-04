@@ -28,6 +28,10 @@ body {
   line-height: 1.6;
 }
 
+h1 {
+  text-align: center;
+}
+
 ul {
   list-style: none;
 }
@@ -47,7 +51,7 @@ header {
 
 .container {
   margin: auto;
-  width: 500px;
+  width: 50rem;
   overflow: auto;
   padding: 3rem 2rem;
 }
@@ -71,7 +75,7 @@ header {
 
 .btn {
   display: block;
-  width: 100%;
+  width: 5rem;
   padding: 10px 15px;
   border: 0;
   background: #333;
@@ -98,4 +102,16 @@ header {
 .item {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
 }
