@@ -30,7 +30,7 @@ function onAdd(e) {
         // Append the button to the list item
         li.appendChild(btnDelete);
         itemList.appendChild(li);
-        textInput.value = "";
+        textInput.value = '';
     }
 }
 
